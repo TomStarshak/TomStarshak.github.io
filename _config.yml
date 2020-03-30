@@ -10,12 +10,12 @@ permalink:        pretty
 title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# url:              http://hyde.getpoole.com
+# baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# author:
+  # name:           'Mark Otto'
+  # url:            https://twitter.com/mdo
 
 paginate:         5
 
