@@ -1,5 +1,4 @@
 # Dependencies
-markdown: kramdown
 highlighter: rouge
 
 # Permalinks
@@ -12,7 +11,7 @@ title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
 # url:              http://hyde.getpoole.com
- baseurl:          /TomStarshak/
+ baseurl:          https://tomstarshak.github.io/
 
  author:
    name:           'Tom Starshak'
