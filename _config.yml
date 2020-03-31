@@ -10,8 +10,8 @@ permalink:        pretty
 title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
- url:              http://tomstarshak.github.io
- baseurl:          https://tomstarshak.github.io/
+ #url:              http://tomstarshak.github.io
+ baseurl:          /
 
  author:
    name:           'Tom Starshak
