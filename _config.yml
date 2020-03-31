@@ -24,5 +24,3 @@ gems:
   - jekyll-paginate # The official Jekyll paginator.
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
 
-github:
-  repo:           https://github.com/TomStarshak
