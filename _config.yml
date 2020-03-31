@@ -13,10 +13,10 @@ title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
 # url:              http://hyde.getpoole.com
-# baseurl:          /
+ baseurl:          https://tomstarshak.github.io/
 
-# author:
-  # name:           'Tom Starshak
+ author:
+   name:           'Tom Starshak
   # url:            https://twitter.com/mdo
 
 paginate:         5
