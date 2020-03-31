@@ -5,17 +5,17 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            '@bazbt3'
-tagline:          '…powered by empathy & Schadenfreude.'
-description:      '…powered by empathy & Schadenfreude.'
+title:            'Tom Starshak'
+tagline:          'Thoughts about ML, soccer, and other things.'
+#description:      '…powered by empathy & Schadenfreude.'
 
 name:             '@bazbt3'
 url:               http://bazbt3.github.io
 baseurl:          https://tomstarshak.github.io/
 
 author:
-  name:           'Barrie Turner'
-  url:            http://bazbt3.10centuries.org
+  name:           'Tom Starshak'
+  
 
 paginate:         5
 
