@@ -10,7 +10,7 @@ Just a first post as I'm trying to set up this blog.
 More things you can do? Here are some:
 
 * List item one
-* And a second one
+* And a second item
 * End of list
 
 
