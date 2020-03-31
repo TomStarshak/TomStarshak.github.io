@@ -1,6 +1,4 @@
 # Dependencies
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: rouge
 
 # Permalinks
@@ -12,7 +10,7 @@ permalink:        pretty
 title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
-# url:              http://hyde.getpoole.com
+ url:              http://tomstarshak.github.io
  baseurl:          https://tomstarshak.github.io/
 
  author:
@@ -21,8 +19,10 @@ description:      'Thoughts on ML, soccer, and other things.'
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+# Use the following plug-ins:
+gems:
+  - jekyll-paginate # The official Jekyll paginator.
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
 
 github:
   repo:           https://github.com/TomStarshak
