@@ -11,7 +11,7 @@ title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
 # url:              http://hyde.getpoole.com
- baseurl:          /tomstarshak/
+ baseurl:          /TomStarshak/
 
  author:
    name:           'Tom Starshak'
