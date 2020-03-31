@@ -1,9 +1,13 @@
 # Dependencies
-#markdown:         redcarpet
-highlighter:      rouge 
+markdown:         redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter:      pygments
+highlighter: true
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: true
 
 
 # Setup
@@ -14,7 +18,7 @@ description:      'Thoughts on ML, soccer, and other things.'
 # baseurl:          /
 
 # author:
-  # name:           'Mark Otto'
+  # name:           'Tom Starshak
   # url:            https://twitter.com/mdo
 
 paginate:         5
