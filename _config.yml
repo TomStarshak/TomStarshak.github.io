@@ -1,4 +1,5 @@
 # Dependencies
+markdown:         redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: rouge
@@ -13,7 +14,7 @@ title:            Tom Starshak
 tagline:          'A Personal Page'
 description:      'Thoughts on ML, soccer, and other things.'
 # url:              http://hyde.getpoole.com
- baseurl:          /tomstarshak
+# baseurl:          /
 
 # author:
   # name:           'Tom Starshak
