@@ -3,28 +3,28 @@ layout: page
 title: About
 ---
 
-#<p class="message">
-#  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-#</p>
-#
-#In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-#There are currently two themes built on Poole:
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-#* [Hyde](http://hyde.getpoole.com)
-#* [Lanyon](http://lanyon.getpoole.com)
+There are currently two themes built on Poole:
 
-#Learn more and contribute on [GitHub](https://github.com/poole).
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-## Setup
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-#Some fun facts about the setup of this project include:
+# Setup
 
-#* Built for [Jekyll](http://jekyllrb.com)
-#* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-#* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-#* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Some fun facts about the setup of this project include:
 
-#Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-#Thanks for reading!
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
