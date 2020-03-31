@@ -11,7 +11,7 @@ description:      'Thoughts about ML, soccer, and other things.'
 
 name:             'Tom Starshak'
 url:               http://tomstarshak.github.io
-baseurl:          https://tomstarshak.github.io
+baseurl:          https://tomstarshak.github.io/
 
 author:
   name:           'Tom Starshak'
