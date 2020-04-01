@@ -3,22 +3,11 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included in Hyde as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-[Hyde](http://mdo.github.io/hyde) is a [Jekyll](http://jekyllrb.com) theme, designed and built by [@mdo](https://twitter.com/mdo). It's an elegant, open source, and mobile first theme for quickly getting a static site up and running.
+Hopefully this site will eventually be a blog concerning thoughts and projects about machine learning, analytics, tech, books, and anything else I think is appropriate.
 
-## Setup
+Like a lot of people I came to be interested in ML after seeing an article hyping the field, I think it was about the Netflix recommendation competition. Since then I've done a decent amount of MOOCs (Coursera, edX  and Udacity). 
+Since then I've finished an MS (Georgia Tech), read papers, listened to podcasts, etc. This site started on a whim during the 2020 Covid-19 outbreak, so if it doesn't get updated hopefully it's because I lost interest and not the other reason.
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Fonts PT Sans (headings) and PT Serif (body), and are served by [Google Web Fonts](http://www.google.com/webfonts)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/mdo/hyde/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
