@@ -3,7 +3,7 @@ layout: post
 title: Project Euler
 ---
 
-[Project Euler](projecteuler.net) is a recreational coding site whose problems are easy to grasp, but are
+[Project Euler](projecteuler.net) is a recreational coding site whose problems are easy to grasp, but are 
 computationally expensive with naive solutions. I've found it to be a good way to practice coding and also
 an interesting way to learn about fields of math I wasn't previously aware of (totient function!?).
 I'm currently in the top 1% of competitors. While I'm certain this has more to do with most people solving a handful
