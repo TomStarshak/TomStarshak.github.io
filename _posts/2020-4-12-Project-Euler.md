@@ -39,4 +39,6 @@ algorithm that's still relevant (...in recreational coding).
 
 <center><img src='https://upload.wikimedia.org/wikipedia/commons/9/94/Animation_Sieve_of_Eratosth.gif'></center>
 
+I've slowed down in tackling new problems, but the package will, hopefully, be periodically updated with new functions as needed.
+
 
