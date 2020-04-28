@@ -22,7 +22,7 @@ pip install euler_helper
 
 At the time of writing there are ten functions of varying levels of usefulness through the ~100 problems I've finished. In no particular order:
 
-* divisors(n): returns a list of divisors of net
+* divisors(n): returns a list of divisors of n
 * prime_factors(n): returns a list of the prime factors of n
 * is_prime(n): check if n is prime
 * sieve_of_eratosthenes(n): returns a list of all prime numbers < n
