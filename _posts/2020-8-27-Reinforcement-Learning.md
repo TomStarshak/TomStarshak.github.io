@@ -3,7 +3,7 @@ layout: post
 title: Coursera Reinforcement Learning Specialization
 ---
 
-[Coursera](coursera.org) is one of the original MOOCs. This Summer I learned they were offering a [reinforcement learning course](https://www.coursera.org/specializations/reinforcement-learning)
+[Coursera](https://www.coursera.org/) is one of the original MOOCs. This Summer I learned they were offering a [reinforcement learning course](https://www.coursera.org/specializations/reinforcement-learning)
 taught by the University of Alberta and following [Sutton and Barto](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf) (Warning, pdf)
 
 As this is a topic of machine learning I haven't gotten into a ton, I was very interested. Currently I've finished the second course in the 
