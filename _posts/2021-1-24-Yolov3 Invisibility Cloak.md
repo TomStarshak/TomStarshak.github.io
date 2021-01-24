@@ -18,12 +18,12 @@ So, given the potential for abuse, are there ways to defeat CV models? Yes! [Ope
 
 >Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake; they’re like optical illusions for machines.
 
-Basically, if you alter some pixels in an image in a clever way, you can cause the machine learning model to classify the image as something it isn't. For example, here's a cat that is mistaked for quacamole.
+Basically, if you alter some pixels in an image in a clever way, you can cause the machine learning model to classify the image as something it isn't. For example, here's a cat that is mistaken for quacamole.
 
 <center><img src='/public/adversarial_attack_counter.png'></center>
 
 Even more interestingly, this can be done for [objects in the real world](https://www.theverge.com/2017/11/2/16597276/google-ai-image-attacks-adversarial-turtle-rifle-3d-printed), not just digital images. 
-I imagine this is a very interesting field of research for the military (camoflage to defeat automated targeting systems?) but also has interest for activists, politicians, minorities, etc.
+I imagine this is a very interesting field of research for the military (camoflage to defeat automated targeting systems?) but also has interest for activists, politicians, religious minorities, etc.
 I'm unaware of inconspicuous articles of clothing that can defeat CV systems, but Tom Goldstein at the University of Maryland developed a [shirt](https://www.cs.umd.edu/~tomg/projects/invisible/) that can defeat Yolov2 and a different one for Yolov3. They are available for purchase, so I doled out some money for the Yolov3 version so I could test it myself.
 
 # Invisibility Cloak
