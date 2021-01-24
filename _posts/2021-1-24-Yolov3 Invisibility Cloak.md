@@ -47,7 +47,7 @@ In this case the invisibility shirt does seem to be helping, although the detect
 ### Accessories
 Here I try adding a scarf and a jacket.
 <center><div style="width:400px"><img src='/public/invisibility_cloak_pics/scarf480p.gif' style="max-width:100%;"><img src='/public/invisibility_cloak_pics/scarf480ptiny.gif' style="max-width:100%;"></div></center>
-<center><div style="width:400px"><img src='/public/invisibility_cloak_pics/jacket480p.gif' style="max-width:100%;"><img src='/public/invisibility_cloak_pics/jacket480p0ptiny.gif' style="max-width:100%;"></div></center>
+<center><div style="width:400px"><img src='/public/invisibility_cloak_pics/jacket480p.gif' style="max-width:100%;"><img src='/public/invisibility_cloak_pics/jacket480ptiny.gif' style="max-width:100%;"></div></center>
 
 So the shift is definitely ineffective against the full Yolov3 model, but works quite well against the tiny model. The jack does not affect the ability to fool the model, but the scarf does when covering the center of the shirt.
 
