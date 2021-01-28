@@ -5,7 +5,7 @@ title: Yolov3 Invisibility Cloak
 
 # Yolo
 
-Yolo (You only look once) is a very popular object detection neural network primarily developed by Joseph Redmon and Ali Farhadi at the University of Washington. The third version in particular was a well
+Yolo (You only look once) is a very popular object detection neural network primarily developed by Joseph Redmon and Ali Farhadi at the University of Washington. The third version in particular was well
 received for it's (near) real-time inference speed and wonderfully readable [paper](https://arxiv.org/pdf/1804.02767.pdf) (pdf). Redmon subsequently quit computer vision research citing military applications
 and privacy concernt.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.<a href="https://t.co/DMa6evaQZr">https://t.co/DMa6evaQZr</a></p>&mdash; Joe Redmon (@pjreddie) <a href="https://twitter.com/pjreddie/status/1230524770350817280?ref_src=twsrc%5Etfw">February 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
