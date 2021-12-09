@@ -9,12 +9,6 @@ Meta-Learning is a field in machine learning where the (meta) objective is actua
 
 There are a couple ways of approaching this: black-box meta-learning, optimization based meta-learning, non-parametric meta-learning. A black-box method might be an LSTM where the input is a dataset and the output are the weights of a model that work well with that dataset. A non-parametric approach might learn an embedding such that a classical non-parametric approach like k-nearest neighbors will work well on the embedding. Optimization based approaches explicitly optimize towards quick adaptation to new tasks. I'll discuss them more in the next sections.
 
-Yolo (You only look once) is a very popular object detection neural network primarily developed by Joseph Redmon and Ali Farhadi at the University of Washington. The third version in particular was well
-received for it's (near) real-time inference speed and wonderfully readable [paper](https://arxiv.org/pdf/1804.02767.pdf) (pdf). Redmon subsequently quit computer vision research citing military applications
-and privacy concernt.
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.<a href="https://t.co/DMa6evaQZr">https://t.co/DMa6evaQZr</a></p>&mdash; Joe Redmon (@pjreddie) <a href="https://twitter.com/pjreddie/status/1230524770350817280?ref_src=twsrc%5Etfw">February 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-I have a lot of respect for that, especially as it pertains to facial recognition. Doubly so if you consider the apparently genocidal abuses taking place in [certain locations](https://www.theverge.com/2020/12/8/22163499/huawei-uighur-surveillance-facial-recognition-megvii-uyghur).
 
 # MAML and Meta-SGD
 

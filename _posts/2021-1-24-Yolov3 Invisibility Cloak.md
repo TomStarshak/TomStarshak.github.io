@@ -18,7 +18,7 @@ So, given the potential for abuse, are there ways to defeat CV models? Yes! [Ope
 
 >Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake; they’re like optical illusions for machines.
 
-Basically, if you alter some pixels in an image in a clever way, you can cause the machine learning model to classify the image as something it isn't. For example, here's a cat that is mistaken for quacamole.
+Basically, if you alter some pixels in an image in a clever way, you can cause the machine learning model to classify the image as something it isn't. For example, here's a cat that is mistaken for guacamole.
 
 <center><img src='/public/adversarial_attack_counter.png'></center>
 
