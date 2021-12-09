@@ -16,7 +16,7 @@ There are a couple ways of approaching this: black-box meta-learning, optimizati
 
 [Model-Agnostic Meta-Learning](https://arxiv.org/abs/1703.03400) (MAML) and [Meta-SGD](https://arxiv.org/abs/1707.09835) are two very similar approaches. Two have two loops. The inner-loop just a normal ML problem, say image classification. Given a set of images, compute a gradient of the loss and update the weights of your model as appropriate. The outer-loop repeats the inner-loop several times and optimizes over the average validation loss that occurred on the inner-loop for the various tasks. Visualed in the above graphic, these algorithms learn a *meta-initialization* such that some small number of gradient steps on a new task can lead to good performance.
 
-Meta-SGD is the same algorithm as MAML except that the inner-loop learning rate per-parameter and learned by the outer-loop. This allows the step-size to be optimized as well as the direction. A more formal explanation of the algorithm is given below.
+Meta-SGD is the same algorithm as MAML except that the inner-loop learning rate is per-parameter and is learned by the outer-loop. This allows the step-size to be optimized as well as the direction. A more formal explanation of the algorithm is given below.
 
 <center><img src='/public/meta-sgd-algo.png'></center>
 
@@ -33,7 +33,7 @@ Some [studies](https://arxiv.org/pdf/2002.06753) have shown that MAML learns a g
 
 <center><img src='/public/meta-sgd-learning-rates.png'></center>
 
-These are the distribution of learning rates that result from training a small convolutional layer on mini-ImageNet. Something odd, is that the mean learning rate for every layer except the output is negative. This means that for a given task, the inner-loop pushes some weights in the direction that will make them perform worse on that task! For this to be valuable, and it must be or they would not learn to be negative, these "worse" weights must have another benefit. As it turns out, negative learning rates on the inner loop cause the model to learn feature representations that are universal. The representations perform worse on the given task, but better for the majority of the possible tasks that the model could be trained on.
+These are the distribution of learning rates that result from training a small convolutional neural network on mini-ImageNet. Something odd, is that the mean learning rate for every layer except the output is negative. This means that for a given task, the inner-loop pushes some weights in the direction that will make them perform worse on that task! For this to be valuable, and it must be or they would not learn to be negative, these "worse" weights must have another benefit. As it turns out, negative learning rates on the inner loop cause the model to learn feature representations that are universal. The representations perform worse on the given task, but better for the majority of the possible tasks that the model could be trained on.
 
 <center><img src='/public/final-accuracy.png'></center>
 
