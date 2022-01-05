@@ -22,7 +22,7 @@ Meta-SGD is the same algorithm as MAML except that the inner-loop learning rate 
 
 # Feature Reuse
 
-So why does this work? This is often phrased as the choosing between [rapid learning or feature reuse](https://arxiv.org/abs/1909.09157). That is, does the model quickly change feature representations, or does it leaern a meta-initialization that is already good for a variety of tasks.
+So why does this work? This is often phrased as the choosing between [rapid learning or feature reuse](https://arxiv.org/abs/1909.09157). That is, does the model quickly change feature representations, or does it learn a meta-initialization that is already good for a variety of tasks.
 
 <center><img src='/public/rapid-or-reuse.png'></center>
 
@@ -33,11 +33,11 @@ Some [studies](https://arxiv.org/pdf/2002.06753) have shown that MAML learns a g
 
 <center><img src='/public/meta-sgd-learning-rates.png'></center>
 
-These are the distribution of learning rates that result from training a small convolutional neural network on mini-ImageNet. Something odd, is that the mean learning rate for every layer except the output is negative. This means that for a given task, the inner-loop pushes some weights in the direction that will make them perform worse on that task! For this to be valuable, and it must be or they would not learn to be negative, these "worse" weights must have another benefit. As it turns out, negative learning rates on the inner loop cause the model to learn feature representations that are universal. The representations perform worse on the given task, but better for the majority of the possible tasks that the model could be trained on.
+These are the distributions of learning rates that result from training a small convolutional neural network on mini-ImageNet. Something odd is that the mean learning rate for every layer except the output layer is negative. This means that for a given task the inner-loop pushes some weights in the direction that will make them perform worse on that task! For this to be valuable, and it must be or they would not learn to be negative, these "worse" weights must have another benefit. As it turns out, negative learning rates on the inner loop cause the model to learn feature representations that are universal. The representations perform worse on the given task, but better for the majority of the possible tasks that the model could be trained on.
 
 <center><img src='/public/final-accuracy.png'></center>
 
 What this graph shows is the test accuracy for two models, both with the same architecture. One was trained with MAML and the other with Meta-SGD. Pre-adaptation is using only the meta-initialization feature representation, on-task is using the feature representation after the model went through the inner loop and was evaluated on that same task, and off-task is after adaptation, but evaluated on a completely new task. 
 
-You might wonder why the accuracy goes down for both models in the on-task case. For Meta-SGD, well, it has negative learning rates. For MAML, it's less clear, but I did strip off the linear classification layer because I only wanted to test the feature representations. The linear layer has been known to change the most during adaptation, and I believe it is do to that. The more interesting part, and the reason for this study/blog post is what happens in the off-task case. MAML gets worse, as expected, but **Meta-SGD gets better**. This shows that *negative learning rates cause models to learn task-agnostic features.*  More details can be found [here](https://github.com/TomStarshak/TomStarshak.github.io/blob/master/public/Negative Learning Rates Learn Universal Features.pdf)
+You might wonder why the accuracy goes down for both models in the on-task case. For Meta-SGD, well, it has negative learning rates. For MAML, it's less clear, but I did strip off the linear classification layer because I only wanted to test the feature representations. The linear layer has been known to change the most during adaptation, and I believe it is due to that. The more interesting part, and the reason for this study/blog post is what happens in the off-task case. MAML gets worse, as expected, but **Meta-SGD gets better**. This shows that *negative learning rates cause models to learn task-agnostic features.*  More details can be found [here](https://github.com/TomStarshak/TomStarshak.github.io/blob/master/public/Negative Learning Rates Learn Universal Features.pdf)
 
