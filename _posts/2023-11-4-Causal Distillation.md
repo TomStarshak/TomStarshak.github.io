@@ -7,7 +7,7 @@ title: Two Improvements to Causal Distillation
 
 Distillation is a well known technique in Machine Learning where a student network is trained on the outputs of a teacher network. Generally the student is a much smaller model and is cheaper/faster/more memory efficient to use in inference. A specific type of distillation, [distillation interchange intervention training objective](https://arxiv.org/abs/2112.02505) (DIITO), adds another objective. First, create a mapping between layers in the student model and the teacher model e.g. layer 2 in the student might map to layers 3 and 4 in the teacher. Second, perform an *interchange intervention* on both the student and teacher models. That is, feed a copy of both models a different input, copy the activations at the mapped layers, and swap the activations from the model copies to the base copy. This will, of course, change the output of the student and teacher models. The auxilarly objective is to match the change in output from student to teacher. The intuition is that if a change in state causes the same change in output, the student must be a *causal abstraction* of the teacher (same reasoning). 
 
-<center><img src='/public/diito.png'></center>
+<center><img src='/public/diito.PNG'></center>
 
 # Improvements
 ## In context intervention
@@ -16,10 +16,10 @@ The original DIITO paper found these interchange interventions by randomizing th
 ## Mixup intervention
 While using a copy of the base networks to generate interventions works and makes intuitive sense, it is quite expensive. Every intervention requires an additional forward pass to both the student and teacher networks. This eats a lot of extra compute. What might be a better way to create interventions? Adding random noise to the internal states of both networks. 
 
-<center><img src='/public/mixup.png'></center>
+<center><img src='/public/mixup.PNG'></center>
 
 ## Results
-<center><img src='/public/sst2.png'></center>
+<center><img src='/public/sst2.PNG'></center>
 
 I tried different strategies on 10% of the SST-2 benchmark. In-context interventions worked best and nearly matched the performance of the model on the full dataset. Interestingly, the mixup intervention outperformed all the attempts (synonym/antontm/etc) to make the word swapping more intelligible, albeit worse than the baseline and in-context settings. I suspect this is because the pool of words that can be swapped that still make sense is significantly smaller than all words in the vocabulary.
 
